@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee play</title>
+</head>
+<style>
+*{
+box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#warp{
+    width: 375px;
+    height: 812px;
+    margin: 0 auto;
+    background-image: linear-gradient(45deg,#e9c79a,#e8c08d)
+}
+.img{
+    width: 100%;
+}
+.img-box img{
+    width: 310px;
+    padding-top: 160px;
+    margin-left: 33px;
+}
+h1{
+    font-family: Noso sans KR;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 70px;
+    color: #ffffff
+    
+}
+.btn-box{
+    padding: 0 30px;
+    padding-top: 60px;
+}
+.btn{
+    float: left;
+    width: 150px;
+    margin-bottom: 16px;
+}
+.btn01{
+    margin-right: 12px;
+}
+.btn03{
+    width:312px ;
+}
+.btn a{
+    display: inline-block;
+    width: inherit;
+    border-radius: 10px;
+    padding: 17px 0;
+    font-family: Noso sans KR;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #6dcff6;
+}
+.btn02 a{
+    border-radius: 10px;
+    color: #6dcff6;
+    background-color: #ffffff;
+}
+.btn03 a{
+    border-radius: 10px;
+    color: #6dcff6;
+    background-color: #ffffff;
+}
+
+</style>
+<body>
+    <div id="warp">
+            <div class="sec-contents">
+                <div class="img-box">
+                    <img src="./best123.png" alt="best coffee">
+                    <h1>가장 맛있는 커피! <br>한번 만나보세요~</h1>
+                    <div class="btn-box">
+                        <div class="btn btn01">
+                            <a href="#">회원가입</a>
+                        </div>
+                        <div class="btn btn02">
+                            <a href="./login01.html">로그인</a>
+                        </div>
+                        <div class="btn btn03">
+                            <a href="#">페이스북으로 로그인</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+</body>
+</html>
